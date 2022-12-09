@@ -24,6 +24,12 @@ And finally, the reason why I created this theme (personally) - no Border-Radius
 All 4 options do support Light & Dark mode - just as the original Outline-Theme did.  
 Unfortunately, the shadows in the Dark mode aren't really visible (yet)... that's something I probably will change soon :)  
 
+Changed Icon Color behave of the 2022.12 HA Update  
+The Theme is keeping some of the new Icon colors - but has reverted the default state Icon Color back.  
+Also, the LOCK State is now green, and not red.
+Other color changes are still the same as in the 2022.12 update and will be (hopefully) extended... :)  
+![grafik](https://user-images.githubusercontent.com/26391061/206766884-a2c3bbcf-9e4e-481b-b80b-b2950a88b6ee.png)
+
 
 ## Installation
 

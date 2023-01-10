@@ -1,6 +1,5 @@
 ---
-#outline-edged with shadow
-
+# the old outline theme... radius 4 no shadow
 
 # This is probably the most minimalistic theme out there.
 #
@@ -11,7 +10,7 @@
 # and tight.
 #
 # https://github.com/ChristophCaina/home-assistant-theme-outline
-outline-edge (with shadows):
+outline (no-borders):
 
     state-default-color: '#4CAF50' # Green
   # state-default-color: '#44739E' # Default (Slate-Grey)
@@ -92,13 +91,10 @@ outline-edge (with shadows):
   state-vacuum-color: '#4CAF50' # Green
   # state-vacuum-color: '#009688' # Teal
 
-  ha-card-border-radius: "0px"
+  ha-card-border-radius: "4px"
   ha-card-border-width: "0px"
-  ha-card-box-shadow: "0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12)"
   modes:
     light:
       border-color: "#E8E8E8"
-      state-default-color: '#44739E' # Blue-Grey
     dark:
       border-color: "#1F1B24"
-      state-default-color: '#44739E' # Blue-Grey

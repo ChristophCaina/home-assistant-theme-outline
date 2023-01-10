@@ -1,35 +1,17 @@
 # Home Assistant Theme: Outline-Edge
 
-This is a fork of the "depricated" Outline Theme provided by @frenck (https://github.com/frenck/home-assistant-theme-outline)
+The original purpose of the theme was to restore the look and feel of HomeAssistant after the changes implemented in the 2022.11.1 Update, where the UI was adapted more to the Google Metro UI with larger border-radius and a slight border around all the cards.
 
-While the original Theme has just removed the default shadow from the HomeAssistant Cards, this package does provide a few more options:
+The theme does provide the "original" Theme, but as well some more options where I've added some variations of the card borders as well.
+In Addition, HA implemented more state color options with the December Updates (2022.12.x).
 
-1. "Default Home-Assistant Pre-2022.11.0 Theme"
-With the Release of Home-Assistant 2022.11.0, the default Theme has increased Border-Radius and no shadows anymore.  
-Therefore, this package does include a Theme that recreates the default style from Homeassistant.  
-![grafik](https://user-images.githubusercontent.com/26391061/199812201-69697d52-1d70-4576-803d-020295908201.png)
+The "HA default" Theme is trying to restore [most] of the Icon colors to the previous state colors, but it does not cover all of them!
+Some entities will still have new colors when they are active.
 
-2. "Original Outline-Theme"
-Furthermore, for those who liked the default Outline-Theme (default border-radius, but no shadows), a recreation of the Outline Theme is available  
-![grafik](https://user-images.githubusercontent.com/26391061/199812458-bfaa0721-1f57-45ff-a841-5f7d807fefcd.png)
+The other variants will make more use of the new color schemas but is trying to reduce the amount of different colors by a lot.
+Most active sensors will be green when active, some of them will be red when active... this depends on the device class and if HA does provide new state colors for this device class (which is not always the case).
 
-3. "No Radius, but Shadows"
-If you don't want any Border-Radius, but you do like the Shadow on the Cards from the default, theme, there's also an option available:  
-![grafik](https://user-images.githubusercontent.com/26391061/199812679-88fee8e7-ad79-4c7f-a160-12a09e988632.png)
-
-4. "No Radius, no Shadows"
-And finally, the reason why I created this theme (personally) - no Border-Radius, and no shadows...  
-![grafik](https://user-images.githubusercontent.com/26391061/199812894-a15ca444-8675-499c-8bab-9e43fdb983de.png)
-
-All 4 options do support Light & Dark mode - just as the original Outline-Theme did.  
-Unfortunately, the shadows in the Dark mode aren't really visible (yet)... that's something I probably will change soon :)  
-
-Changed Icon Color behave of the 2022.12 HA Update  
-The Theme is keeping some of the new Icon colors - but has reverted the default state Icon Color back.  
-Also, the LOCK State is now green, and not red.
-Other color changes are still the same as in the 2022.12 update and will be (hopefully) extended... :)  
-![grafik](https://user-images.githubusercontent.com/26391061/206766884-a2c3bbcf-9e4e-481b-b80b-b2950a88b6ee.png)
-
+![grafik](https://user-images.githubusercontent.com/26391061/211516166-90fb898f-6cb6-46d6-96d3-9ebb7e3c9935.png)
 
 ## Installation
 

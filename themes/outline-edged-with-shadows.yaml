@@ -13,13 +13,13 @@
 # https://github.com/ChristophCaina/home-assistant-theme-outline
 outline-edge (with shadows):
 
+  # new Custom Colors:
+
+    #Multi-State Entities
   state-cover-open-color: '#4CAF50' # Green
   state-cover-opening-color: '#4CAF50'
   state-cover-closed-color: '#2196F3' # Blue
   state-cover-closing-color: '#2196F3'
-
-  state-automation-active-color: '#4CAF50' # Green
-  state-automation-inactive-color: '#F44336' # Red
 
   state-lock-jammed-color: '#F44336' # Red
   state-lock-locked-color: '#4CAF50' # Green
@@ -30,9 +30,6 @@ outline-edge (with shadows):
   state-sensor-battery-low-color: '#F44336' # Red
   state-sensor-battery-medium-color: '#FF9800' # Orange
   state-sensor-battery-unknown-color: '#8A8A8A' # Off (Mid-Grey)
-
-  state-switch-on-color: '#4CAF50' # Green
-  state-switch-off-color: '#F44336' # Red
 
   state-climate-auto-color: '#4CAF50' # Green
   state-climate-cool-color: '#2196F3' # Blue
@@ -52,21 +49,25 @@ outline-edge (with shadows):
   state-alarm-pending-color: '#FF9800' # Orange
   state-alarm-triggered-color: '#F44336' # Red
 
-  state-siren-on-color: '#F44336' # Red
-  state-siren-off-color: '#4CAF50' # Green
+  state-vacuum-docked-color: '#4CAF50' # Green
+  state-vacuum-paused-color: '#FF5722' # Deep Orange
+  state-vacuum-error-color: '#F44336' # Red
+  state-vacuum-idle-color: '#44739E' # Blue-Grey
+  state-vacuum-cleaning-color: '#FF9800' # Orange
+  state-vacuum-returning-color: '#2196F3' # Blue
 
-  state-binary_sensor-window-off-color: '#4CAF50' # Green
-  state-binary_sensor-window-on-color: '#F44336' # Red
+    # switch / button / automation / etc.
+  state-switch-on-color: '#4CAF50' # Green
+  state-switch-off-color: '#F44336' # Red
 
-  state-binary_sensor-door-off-color: '#4CAF50' # Green
-  state-binary_sensor-door-on-color: '#F44336' # Red
+  state-automation-active-color: '#4CAF50' # Green
+  state-automation-inactive-color: '#F44336' # Red
 
-  state-binary_sensor-lock-off-color: '#4CAF50' # Green
-  state-binary_sensor-lock-on-color: '#F44336' # Red
+    # binary_sensors (global) off -> green / on -> red
+  state-binary_sensor-off-color: '#4CAF50' # Green
+  state-binary_sensor-on-color: '#F44336' # Red
 
-  state-binary_sensor-tamper-off-color: '#4CAF50' # Green
-  state-binary_sensor-tamper-on-color: '#F44336' # Red
-
+    # binary_sensors (per domain) off -> red / on -> green
   state-binary_sensor-plug-off-color: '#F44336' # Red
   state-binary_sensor-plug-on-color: '#4CAF50' # Green
 
@@ -76,27 +77,11 @@ outline-edge (with shadows):
   state-binary_sensor-battery_charging-off-color: '#F44336' # Red
   state-binary_sensor-battery_charging-on-color: '#4CAF50' # Green
 
-  state-binary_sensor-smoke-off-color: '#4CAF50' # Green
-  state-binary_sensor-smoke-on-color: '#F44336' # Red
-  
-  state-binary_sensor-heat-off-color: '#4CAF50' # Green
-  state-binary_sensor-heat-on-color: '#F44336' # Red
-
   state-update-off-color: '#4CAF50' # Green
   state-update-active-color: '#FF9800' # Orange
 
-  state-binary_sensor-on-color: '#4CAF50' # Green
-  state-binary_sensor-off-color: '#F44336' # Red
- 
-  state-vacuum-docked-color: '#4CAF50' # Green
-  state-vacuum-paused-color: '#FF5722' # Deep Orange
-  state-vacuum-error-color: '#F44336' # Red
-  state-vacuum-idle-color: '#44739E' # Blue-Grey
-  state-vacuum-cleaning-color: '#FF9800' # Orange
-  state-vacuum-returning-color: '#2196F3' # Blue
- 
   state-default-color: '#44739E' # Green
- 
+  
   ha-card-border-radius: "0px"
   ha-card-border-width: "0px"
   ha-card-box-shadow: "0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12)"

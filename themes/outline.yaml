@@ -87,6 +87,12 @@ outline (default):
   state-binary_sensor-on-color: '#4CAF50' # Green
   state-binary_sensor-off-color: '#F44336' # Red
   
+  state-vacuum-docked-color: '#4CAF50' # Green
+  state-vacuum-paused-color: '#FF5722' # Deep Orange
+  state-vacuum-error-color: '#F44336' # Red
+  state-vacuum-idle-color: '#44739E' # Blue-Grey
+  state-vacuum-cleaning-color: '#FF9800' # Orange
+  state-vacuum-returning-color: '#2196F3' # Blue
 
   state-default-color: '#44739E' # Green
 

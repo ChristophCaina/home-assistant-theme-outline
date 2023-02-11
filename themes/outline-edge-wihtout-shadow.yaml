@@ -60,6 +60,9 @@ outline-edge (no shadows):
   state-automation-active-color: '#4CAF50' # Green
   state-automation-inactive-color: '#F44336' # Red
 
+  state-siren-off-color: '#4CAF50' # Green
+  state-siren-on-color: '#F44336' # Red
+  
     # binary_sensors (global) off -> green / on -> red
   state-binary_sensor-off-color: '#4CAF50' # Green
   state-binary_sensor-on-color: '#F44336' # Red
